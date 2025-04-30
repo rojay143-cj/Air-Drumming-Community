@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Future';
+    src: url('/Assets/Font/This is the future/This Is The Future.otf') format('opentype');
+}@font-face{
+    font-family: 'robotoregular';
+    src: url('/Assets/Font/Roboto/Roboto-Regular.ttf');
+}
+.futurefont{
+    font-family: 'Future', sans-serif;
+}
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.roboto{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Home Page */
+.right{
+    transform: translateX(-100%);
+    transition: all;
+    opacity: 0;
+}.rightshow{
+    transform: translateX(0);
+    transition: all;
+    opacity: 1;
+}
+
+.top{
+    transform: translateY(-100%);
+    transition: all;
+    opacity: 0;
+}.topshow{
+    transform: translateY(0);
+    transition: all;
+    opacity: 1;
+}
+
+.bottom{
+    transform: translateY(90%);
+    transition: all;
+    opacity: 0;
+}.bottomshow{
+    transform: translateY(0);
+    transition: all;
+    opacity: 1;
+}
+
+.left{
+    transform: translateX(100%);
+    transition: all;
+    opacity: 0;
+}.leftshow{
+    transform: translateX(0);
+    transition: all;
+    opacity: 1;
+}
+
+.scale1{
+    transform: scale(0);
+    transition: all;
+    opacity: 0;
+}.scale1show{
+    transform: scale(1);
+    transition: all;
+    opacity: 1;
+}
+
+/* About US */
+.phone1{
+    transform: translateY(56%);
+    transition: all 2s;
+}
+.phoneShow{
+    transform: translateY(0);
+    transition: all 2s;
+}.phone2 {
+    transform: translateY(30%);
+    transition: all 2s;
+}.phoneShow2 {
+    transform: translateY(0);
+    transition: all 2s;
+}
+
+.fadeRight{
+    transform: translateX(-25%);
+    opacity: 0;
+}.faderightShow{
+    transform: translateX(0);
+    opacity: 1;
+}.fadeRight2{
+    transform: translateX(-30%);
+    opacity: 0;
+}.faderightShow2{
+    transform: translateX(0);
+    opacity: 1;
+}
+.scale-up {
+    transform: scale(1.5);
+    transition: transform ease-in;
+}
+@keyframes growImage{
+    from{
+        transform: scale(0);
+    }to{
+        transform: scale(1);
+    }
+}.growImage{
+    animation: growImage 0.7s ease-in-out;
+}
+
+.fade{
+    opacity: 0;
+    transition: opacity ease-in;
+}.fadeShow{
+    opacity: 1;
+    transition: opacity ease-in;
+}
+
+.milestones_mask {
+    -webkit-mask-image: url('../../Assets/02_About Page/About_Section 2/milestone-BG.png');
+    mask-image: url('../../Assets/02_About Page/About_Section  2/milestone-BG.png');
+    overflow: hidden;
+    mask-repeat: no-repeat;
+    mask-size: 100% 1526px;
+}
+@media (max-width: 1025px) {
+    .milestones_mask {
+        mask-size: 100% 100%;
+    }
+}
+

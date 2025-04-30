@@ -1,0 +1,88 @@
+/* navbar */
+@media (min-width: 1025px) {
+    #nav {
+        gap: 0;
+        justify-content: space-between;
+    }
+}
+/* planets */
+@media (max-width: 1025px) {
+    /* Banner */
+    #bannerText {
+        width: 100%;
+    }
+    /* planets */
+    #p1 {
+        width: 77.63px;
+        top: 20%;
+        left: 13%;
+    }
+    #p2 {
+        width: 123.75px;
+        top: 35%;
+    }
+    #p3 {
+        width: 230.63px;
+    }
+    #p4 {
+        width: 307.13px;
+    }
+    #p5 {
+        width: 554.63px;
+    }
+    /* Section 1 */
+    #homesec1{
+        gap: 0.5rem;
+        width: 90%;
+    }
+    #boxwrap{
+        gap: 0.5rem;
+    }
+    #airdrummingLogo{
+        height: 100%;
+    }
+    #airciting {
+        flex-direction: column;
+        padding: 5;
+        padding-right: 1.25rem;
+        padding-left: 1.25rem;
+        height: 100%;
+    }#aircitingh4{
+        width: 100%;
+        text-wrap: nowrap;
+        text-align: center;
+    }#ddciting1{
+        display: none;
+    }
+    #ddciting2{
+        display: block;
+    }
+    #planetgreen,
+    #planetpink{
+        display: none;
+    }
+    /* About Us */
+}
+@media (max-width: 578px){
+    /* Planets */
+    #p1{
+        top: 12%;
+        left: 10%;
+    }#p2{
+        top: 35%;
+        left: -20%;
+    }#p3{
+        top: 40%;
+        width: 165px;
+    }#p4{
+        top: 60%;
+        width: 167px;
+        left: -10%;
+    }#p5{
+        top: 60%;
+        width: 1013px;
+    }#btn_g-a{
+        width: 204px;
+        height: 50.4px;
+    }
+}
